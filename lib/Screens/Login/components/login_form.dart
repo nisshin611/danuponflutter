@@ -69,7 +69,7 @@ class _LoginFormState extends State<LoginForm> {
             cursorColor: kPrimaryColor,
             onSaved: (email) {},
             decoration: const InputDecoration(
-              hintText: "Your username",
+              hintText: "ชื่อของคุณ",
               prefixIcon: Padding(
                 padding: const EdgeInsets.all(defaultPadding),
                 child: Icon(Icons.person),
@@ -85,7 +85,7 @@ class _LoginFormState extends State<LoginForm> {
               controller: ctrPasswprd,
               validator: ((value) {
                 if (value!.isEmpty) {
-                  return "Please enter a password";
+                  return "รหัสผ่านของคุณ";
                 }
               }),
               decoration: const InputDecoration(

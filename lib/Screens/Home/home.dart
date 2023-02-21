@@ -75,8 +75,8 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        title: const Text("เเสดง user ทั้งหมด"),
-        backgroundColor: Color.fromARGB(255, 172, 25, 198),
+        title: const Text("รายชื่อเด็กปวดหลังนั่งทำงาน"),
+        backgroundColor: Color.fromARGB(255, 255, 0, 0),
         actions: [
           IconButton(
             icon: const Icon(Icons.person_add),
